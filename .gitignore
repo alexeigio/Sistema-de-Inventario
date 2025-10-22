@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+
+# dotenv environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Local env overrides and credentials
+env.local
+local.env
+*.pem
+certs/
+
+# Supabase local files
+.supabase/
+
+# Docker
+docker-compose.override.yml
+
+# WSL/Windows specific
+\.wslconfig
+
+# Misc caches
+.cache/
+

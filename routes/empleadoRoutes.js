@@ -18,6 +18,3 @@ router.delete('/:id', deleteEmpleado);
 
 export default router;
 
-
-SUPABASE_URL="URL_DE_TU_PROYECTO_SUPABASE"
-SUPABASE_ANON_KEY="TU_SUPABASE_ANON_KEY"
